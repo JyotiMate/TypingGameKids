@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Disney Typing Game</title>
+
+    <!-- meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://my-disney-typing-game.glitch.me/" />
+    <meta name="description" content="Disney Typeing Game built for kids." />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Disney Typing Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://my-disney-typing-game.glitch.me/" />
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body class="notstarted">
+    <main>
+      <h1>
+        Disney Typing Game</h1>
+      
+      <p>Practice your typing skills with a quote from Disney movies. <br>Click the start button to begin!</p>
+      <button type="button" id="start" class="button">
+        Start Game <i class="rocket"></i>
+      </button>
+      
+      <p id="quote"></p> <!-- This will display our quote -->
+      <p id="message"></p> <!-- This will display any status messages -->
+    
+      <input type="text" aria-label="current word" id="typed-value" /> <!-- The textbox for typing -->
+      
+       <button type="button" id="stop" class="button">
+        Stop Game
+      </button>
+      
+    </main>
+    
+   
+  
+  </body>
+</html>
